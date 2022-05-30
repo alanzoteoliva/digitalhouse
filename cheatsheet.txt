@@ -1,0 +1,32 @@
+Clonar un repositorio existente
+$ git clone ssh://usuario@domain.com/repo.git
+
+Crear un nuevo repositorio local
+$ git init
+
+Configurar nombre de usuario para todos los proyectos
+$git config –global user.name “nombre”
+
+Configurar email para todos los proyectos
+$git config –global user.email “email”
+
+Estado de seguimiento del repositorio
+$ git status
+
+Agregar archivo al repositorio 
+$git add <archivo>
+
+Agregar commit del archivo actualizado
+$  git commit -m “mensaje”
+
+Cargar modificaciones al repositorio de la nube
+$ git push origin main
+
+Descargar actualizaciones a mi repositorio local
+$ git pull origin main
+
+Clonar proyecto de la nube
+$ git clone <dirección del proyecto>
+
+
+Alanzoteoliva.
