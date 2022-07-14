@@ -1,0 +1,59 @@
+header {
+    /*Color de fondo "lightseagreen"
+    Tipografía blanca
+    Tamaño de fuente: 28px
+    Un borde inferior sólido de 3px de color indigo
+    Padding de 22px
+    Un margen de 15px abajo, para separar el header de la sección principal
+    Texto centrado
+    No olvidar el box sizing*/
+    background-color: lightseagreen;
+    color: white;
+    font-size: 28px;
+    border: solid 0px 0px 3px 0px indigo;
+    padding: 22px;
+    margin: 0px 0px 15px 0px;
+    text-align: center;
+    box-sizing: border-box;
+    }
+
+    section {
+    /*Ancho del 50% de su contenedor
+    Margen a la izquierda del 25%
+    Color de fondo "gainsboro"
+    Margen de 15px abajo, para separarlo del footer
+    Padding de 12px a la izquierda
+    Padding de 30px arriba y abajo
+    Borde negro rayado (dashed) de 1px
+    Probemos agregar la regla border-radius:5px para evidenciar qué hace
+    Texto centrado
+    No olvidar el box sizing*/
+    width: 50%;
+    background-color: gainsboro;
+    color: white;
+    font-size: 28px;
+    border:  dashed 1px black;
+    border-radius: 5px;
+    padding: 30px 0px 30px 12px;
+    margin: 0px 0px 15px 25%;
+    text-align: center;
+    box-sizing: content-box;
+    }    
+
+    footer {
+    /*Color de fondo "rebeccapurple"
+    Tipografía blanca
+    Un borde superior sólido de 1 px de color "lightseagreen"
+    Padding de 12px
+    Un alto fijo de 40px
+    Texto centrado
+    No olvidar el box sizing*/
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 28px;
+    border:  solid 1px 0px lightseagreen;
+    padding: 12px;
+    height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    }
